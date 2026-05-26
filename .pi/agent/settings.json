@@ -1,0 +1,35 @@
+{
+  "lastChangelogVersion": "0.75.5",
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-5.5",
+  "packages": [
+    "npm:pi-mcp-adapter",
+    {
+      "source": "npm:pi-terminal-theme",
+      "themes": [
+        "+themes/terminal.json"
+      ]
+    },
+    "npm:pi-simplify",
+    "npm:@narumitw/pi-firecrawl"
+  ],
+  "npmCommand": [
+    "bun"
+  ],
+  "enabledModels": [
+    "openai-codex/gpt-5.5",
+    "opencode/kimi-k2.6",
+    "opencode/claude-opus-4-7",
+    "opencode/glm-5.1"
+  ],
+  "hideThinkingBlock": false,
+  "defaultThinkingLevel": "low",
+  "theme": "terminal",
+  "showHardwareCursor": true,
+  "compaction": {
+    "enabled": true
+  },
+  "terminal": {
+    "clearOnShrink": false
+  }
+}
