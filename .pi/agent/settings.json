@@ -1,5 +1,5 @@
 {
-  "lastChangelogVersion": "0.75.5",
+  "lastChangelogVersion": "0.77.0",
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.5",
   "packages": [
@@ -19,8 +19,8 @@
   "enabledModels": [
     "openai-codex/gpt-5.5",
     "opencode/kimi-k2.6",
-    "opencode/claude-opus-4-7",
-    "opencode/glm-5.1"
+    "opencode/glm-5.1",
+    "opencode/claude-opus-4-8"
   ],
   "hideThinkingBlock": false,
   "defaultThinkingLevel": "low",
