@@ -1,0 +1,27 @@
+{
+  "version": 3,
+  "skills": {
+    "ffmpeg": {
+      "source": "digitalsamba/claude-code-video-toolkit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/digitalsamba/claude-code-video-toolkit.git",
+      "skillPath": ".claude/skills/ffmpeg/SKILL.md",
+      "skillFolderHash": "860998fd6a6d4b804b85e7f88cd2b3c8f5917971",
+      "installedAt": "2026-03-08T22:48:16.512Z",
+      "updatedAt": "2026-03-08T22:48:16.512Z"
+    },
+    "agent-browser": {
+      "source": "vercel-labs/agent-browser",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
+      "skillPath": "skills/agent-browser/SKILL.md",
+      "skillFolderHash": "c1470a475a0472fceda2401ea6763708a91680a8",
+      "installedAt": "2026-06-01T01:58:32.059Z",
+      "updatedAt": "2026-06-01T01:58:32.059Z"
+    }
+  },
+  "lastSelectedAgents": [],
+  "dismissed": {
+    "findSkillsPrompt": true
+  }
+}
