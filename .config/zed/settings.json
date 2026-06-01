@@ -1,0 +1,130 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "cursor_shape": "bar",
+  "diff_view_style": "unified",
+  "cli_default_open_behavior": "new_window",
+  "theme": {
+    "mode": "system",
+    "dark": "One Dark",
+    "light": "One Light",
+  },
+  // "project_panel": {
+  //   "sort_mode": "directories_first",
+  //   "hide_root": false,
+  //   "bold_folder_labels": false,
+  //   "auto_fold_dirs": false,
+  //   "default_width": 240.0,
+  // },
+  "project_panel": {
+    "dock": "left",
+  },
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "agent": {
+    "sidebar_side": "right",
+    "tool_permissions": {
+      "default": "allow",
+    },
+    "default_model": {
+      "provider": "openai-subscribed",
+      "model": "gpt-5.5",
+      "enable_thinking": true,
+    },
+    "notify_when_agent_waiting": "never",
+    "dock": "right",
+  },
+  "agent_servers": {
+    "pi-acp": {
+      "type": "registry",
+    },
+    "opencode": {
+      "default_config_options": {
+        "model": "opencode/glm-5.1",
+        "effort": "none",
+      },
+      "type": "registry",
+    },
+    "codex-acp": {
+      "default_config_options": {
+        "model": "gpt-5.5",
+        "reasoning_effort": "low",
+        "mode": "full-access",
+      },
+      "type": "registry",
+    },
+  },
+  "lsp": {
+    "tailwindcss-language-server": {
+      "settings": {
+        "validate": false,
+      },
+    },
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always",
+          },
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always",
+          },
+        },
+      },
+      "enable_lsp_tasks": true,
+    },
+  },
+  "vim_mode": false,
+  "git_panel": {
+    "dock": "left",
+    "tree_view": true,
+    "sort_by_path": true,
+  },
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": false,
+  },
+  "buffer_font_size": 13.5,
+  "terminal": {
+    "font_size": 12.5,
+    "cursor_shape": "bar",
+  },
+  "tab_size": 2,
+  "languages": {
+    "CSS": {
+      "language_servers": [
+        "tailwindcss-intellisense-css",
+        "!vscode-css-language-server",
+      ],
+    },
+    "JavaScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true,
+      },
+    },
+    "TypeScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true,
+      },
+    },
+    "TSX": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true,
+      },
+    },
+  },
+  "scroll_sensitivity": 2,
+  "formatter": "language_server",
+}
