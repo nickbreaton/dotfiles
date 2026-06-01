@@ -11,7 +11,7 @@
       ]
     },
     "npm:pi-simplify",
-    "npm:@narumitw/pi-firecrawl"
+    "npm:pi-web-access"
   ],
   "npmCommand": [
     "bun"
