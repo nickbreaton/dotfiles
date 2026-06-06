@@ -15,6 +15,9 @@
     "npm:pi-excalidraw",
     "npm:pi-session-move"
   ],
+  "skills": [
+    "!~/.agents/skills/agent-browser"
+  ],
   "npmCommand": [
     "bun"
   ],
@@ -22,10 +25,12 @@
     "openai-codex/gpt-5.5",
     "opencode/kimi-k2.6",
     "opencode/glm-5.1",
-    "opencode/claude-opus-4-8"
+    "opencode/claude-opus-4-8",
+    "opencode/minimax-m3-free"
   ],
   "hideThinkingBlock": false,
   "defaultThinkingLevel": "low",
+  "treeFilterMode": "user-only",
   "theme": "terminal",
   "showHardwareCursor": true,
   "compaction": {
