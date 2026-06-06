@@ -12,7 +12,8 @@
     },
     "npm:pi-simplify",
     "npm:pi-web-access",
-    "npm:pi-excalidraw"
+    "npm:pi-excalidraw",
+    "npm:pi-session-move"
   ],
   "npmCommand": [
     "bun"
