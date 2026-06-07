@@ -15,9 +15,6 @@
     "npm:pi-excalidraw",
     "npm:pi-session-move"
   ],
-  "skills": [
-    "!~/.agents/skills/agent-browser"
-  ],
   "npmCommand": [
     "bun"
   ],
