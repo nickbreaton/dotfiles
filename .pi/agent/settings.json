@@ -1,5 +1,5 @@
 {
-  "lastChangelogVersion": "0.78.1",
+  "lastChangelogVersion": "0.79.7",
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.5",
   "packages": [
@@ -10,21 +10,20 @@
         "+themes/terminal.json"
       ]
     },
-    "npm:pi-simplify",
     "npm:pi-web-access",
     "npm:pi-excalidraw",
-    "npm:pi-session-move"
+    "npm:@zigai/pi-mention-skill"
   ],
   "npmCommand": [
     "bun"
   ],
   "enabledModels": [
     "openai-codex/gpt-5.5",
-    "opencode/kimi-k2.6",
-    "opencode/glm-5.1",
-    "opencode/claude-opus-4-8",
-    "opencode/minimax-m3-free"
+    "opencode-go/glm-5.2",
+    "opencode-go/kimi-k2.7-code",
+    "opencode-go/minimax-m3"
   ],
+  "enableSkillCommands": false,
   "hideThinkingBlock": false,
   "defaultThinkingLevel": "low",
   "treeFilterMode": "user-only",

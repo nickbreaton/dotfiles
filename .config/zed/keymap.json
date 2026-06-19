@@ -9,6 +9,7 @@
   {
     "context": "Workspace",
     "bindings": {
+      "cmd-shift-t": "agent::NewTerminalThread"
       // "shift shift": "file_finder::Toggle"
     },
   },
