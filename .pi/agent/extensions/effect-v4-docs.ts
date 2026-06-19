@@ -1,3 +1,7 @@
+// TODO: Refactor this extension to work much more generically, following opencode's
+// references feature: https://opencode.ai/docs/references/
+// Discover relevant local/project docs, link them, and inject those references
+// instead of hard-coding Effect v4 docs.
 import { access, readFile } from "node:fs/promises";
 import { constants } from "node:fs";
 import { dirname, join } from "node:path";
