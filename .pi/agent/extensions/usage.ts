@@ -30,7 +30,6 @@ export default function usageExtension(pi: ExtensionAPI) {
       });
       child.unref();
 
-      ctx.ui.notify(`Opened ${usageUrl}`, "info");
     },
   });
 }
