@@ -12,7 +12,7 @@
   "diff_view_style": "unified",
   "cli_default_open_behavior": "new_window",
   "theme": {
-    "mode": "light",
+    "mode": "system",
     "dark": "One Dark",
     "light": "One Light",
   },
