@@ -1,5 +1,5 @@
 {
-  "lastChangelogVersion": "0.79.7",
+  "lastChangelogVersion": "0.79.10",
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.5",
   "packages": [
@@ -12,7 +12,9 @@
     },
     "npm:pi-web-access",
     "npm:pi-excalidraw",
-    "npm:@zigai/pi-mention-skill"
+    "npm:@zigai/pi-mention-skill",
+    "npm:pi-webmcp",
+    "git:github.com/alexanderop/pi-references@9c7a1864"
   ],
   "npmCommand": [
     "bun"

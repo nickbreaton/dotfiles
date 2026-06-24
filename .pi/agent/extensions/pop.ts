@@ -2,29 +2,36 @@ import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 
 export default function (pi: ExtensionAPI) {
   pi.registerCommand("pop", {
-    description: "Jump back to the previous user message without creating a branch summary",
-    handler: async (_args, ctx) => {
-      await ctx.waitForIdle();
+    description:
+      "Jump back to the previous user message without creating a branch summary. Optional count argument to pop multiple times (default: 1).",
+    handler: async (args, ctx) => {
+      const parsedCount = Number.parseInt(args.trim(), 10);
+      const count = Number.isNaN(parsedCount) || parsedCount < 1 ? 1 : parsedCount;
 
-      const branch = ctx.sessionManager.getBranch();
-      const previousUserEntry = [...branch]
-        .reverse()
-        .find(
-          (entry: any) =>
-            entry.type === "message" && entry.message?.role === "user",
-        );
+      for (let i = 0; i < count; i++) {
+        await ctx.waitForIdle();
 
-      if (!previousUserEntry) {
-        ctx.ui.notify("No previous user message found.", "warning");
-        return;
-      }
+        const branch = ctx.sessionManager.getBranch();
+        const previousUserEntry = [...branch]
+          .reverse()
+          .find(
+            (entry: any) =>
+              entry.type === "message" && entry.message?.role === "user",
+          );
 
-      const result = await ctx.navigateTree(previousUserEntry.id, {
-        summarize: false,
-      });
+        if (!previousUserEntry) {
+          ctx.ui.notify("No previous user message found.", "warning");
+          return;
+        }
 
-      if (result.cancelled) {
-        ctx.ui.notify("/pop cancelled.", "warning");
+        const result = await ctx.navigateTree(previousUserEntry.id, {
+          summarize: false,
+        });
+
+        if (result.cancelled) {
+          ctx.ui.notify("/pop cancelled.", "warning");
+          return;
+        }
       }
     },
   });
