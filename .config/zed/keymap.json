@@ -11,5 +11,5 @@
     "bindings": {
       // "j k": "vim::NormalBefore"
     },
-  },
+  }
 ]
