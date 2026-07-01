@@ -14,7 +14,7 @@
     "npm:pi-excalidraw",
     "npm:@zigai/pi-mention-skill",
     "npm:pi-webmcp",
-    "git:github.com/alexanderop/pi-references@9c7a1864"
+    "git:github.com/alexanderop/pi-references@9c7a1864e2ad69f145edf33d11ed4216e3678456"
   ],
   "npmCommand": [
     "bun"
