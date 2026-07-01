@@ -1,5 +1,5 @@
 {
-  "lastChangelogVersion": "0.79.10",
+  "lastChangelogVersion": "0.80.3",
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.5",
   "packages": [
@@ -29,7 +29,7 @@
   "hideThinkingBlock": false,
   "defaultThinkingLevel": "low",
   "treeFilterMode": "user-only",
-  "theme": "terminal",
+  "theme": "light/dark",
   "showHardwareCursor": true,
   "compaction": {
     "enabled": true
