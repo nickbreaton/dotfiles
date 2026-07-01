@@ -9,13 +9,13 @@ This repo mirrors parts of my home directory. Files and directories are stored h
 For example, a file stored at:
 
 ```text
-.agents/.skill-lock.json
+.pi/agent/settings.json
 ```
 
 can be symlinked to:
 
 ```text
-~/.agents/.skill-lock.json
+~/.pi/agent/settings.json
 ```
 
 This keeps configuration tracked in the dotfiles repo while tools continue to read and write the paths they normally expect.
