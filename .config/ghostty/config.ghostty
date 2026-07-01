@@ -43,6 +43,8 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
+working-directory = ~/Desktop
+
 window-padding-x = 8
 window-padding-y = 8
 
