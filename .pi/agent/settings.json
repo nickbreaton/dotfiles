@@ -1,7 +1,7 @@
 {
-  "lastChangelogVersion": "0.80.3",
+  "lastChangelogVersion": "0.84.1",
   "defaultProvider": "openai-codex",
-  "defaultModel": "gpt-5.5",
+  "defaultModel": "gpt-5.6-sol",
   "packages": [
     "npm:pi-mcp-adapter",
     {
@@ -14,7 +14,10 @@
     "npm:pi-excalidraw",
     "npm:@zigai/pi-mention-skill",
     "npm:pi-webmcp",
-    "git:github.com/alexanderop/pi-references@9c7a1864e2ad69f145edf33d11ed4216e3678456"
+    "git:github.com/alexanderop/pi-references@9c7a1864e2ad69f145edf33d11ed4216e3678456",
+    "npm:pi-sidequest",
+    "npm:@plannotator/pi-extension",
+    "npm:pi-btw"
   ],
   "npmCommand": [
     "bun"
@@ -23,12 +26,13 @@
     "openai-codex/gpt-5.5",
     "opencode-go/glm-5.2",
     "opencode-go/kimi-k2.7-code",
-    "opencode-go/minimax-m3"
+    "opencode-go/minimax-m3",
+    "openai-codex/gpt-5.6-sol"
   ],
   "enableSkillCommands": false,
   "hideThinkingBlock": false,
-  "defaultThinkingLevel": "low",
-  "treeFilterMode": "user-only",
+  "defaultThinkingLevel": "medium",
+  "treeFilterMode": "no-tools",
   "theme": "light/dark",
   "showHardwareCursor": true,
   "compaction": {

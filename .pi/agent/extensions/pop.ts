@@ -33,6 +33,8 @@ export default function (pi: ExtensionAPI) {
           return;
         }
       }
+
+      ctx.ui.setEditorText("");
     },
   });
 }
