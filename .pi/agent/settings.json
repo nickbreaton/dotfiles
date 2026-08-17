@@ -1,5 +1,5 @@
 {
-  "lastChangelogVersion": "0.84.1",
+  "lastChangelogVersion": "0.84.2",
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.6-sol",
   "packages": [
@@ -16,8 +16,7 @@
     "npm:pi-webmcp",
     "git:github.com/alexanderop/pi-references@9c7a1864e2ad69f145edf33d11ed4216e3678456",
     "npm:pi-sidequest",
-    "npm:@plannotator/pi-extension",
-    "npm:pi-btw"
+    "npm:@plannotator/pi-extension"
   ],
   "npmCommand": [
     "bun"
@@ -31,9 +30,12 @@
   ],
   "enableSkillCommands": false,
   "hideThinkingBlock": false,
-  "defaultThinkingLevel": "medium",
+  "defaultThinkingLevel": "high",
   "treeFilterMode": "no-tools",
-  "theme": "light/dark",
+  "theme": "catppuccin-macchiato",
+  "themes": [
+    "~/Developer/dotfiles/.pi/agent/themes"
+  ],
   "showHardwareCursor": true,
   "compaction": {
     "enabled": true

@@ -45,11 +45,15 @@
 
 working-directory = ~/Desktop
 
+# Match Dillon's Catppuccin Macchiato appearance.
+theme = Catppuccin Macchiato
+background-opacity = 1.0
+
+title = Ghostty
+
+window-colorspace = display-p3
 window-padding-x = 8
 window-padding-y = 8
-
-# Use GitHub Light when the system is in light mode, and Ghostty's default theme in dark mode.
-theme = light:GitHub Light Default,dark:Ghostty Default Style Dark
 
 cursor-style = bar
 adjust-cursor-thickness = 2

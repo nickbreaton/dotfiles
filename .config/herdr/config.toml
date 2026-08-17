@@ -1,6 +1,15 @@
 onboarding = false
 [theme]
-name = "one-dark"
-auto_switch = true
-light_name = "one-light"
-dark_name = "one-dark"
+name = "catppuccin"
+
+[theme.custom]
+accent = "#c6a0f6"
+panel_bg = "#24273a"
+green = "#a6da95"
+yellow = "#eed49f"
+red = "#ed8796"
+blue = "#8aadf4"
+
+[ui]
+accent = "#c6a0f6"
+agent_panel_sort = "spaces"
