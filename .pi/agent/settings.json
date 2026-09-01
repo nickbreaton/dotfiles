@@ -19,9 +19,9 @@
     "bun"
   ],
   "enabledModels": [
-    "opencode/gpt-5.6-sol",
     "opencode/grok-4.6",
-    "opencode-go/glm-5.3"
+    "opencode-go/glm-5.3",
+    "openai-codex/gpt-5.6-sol"
   ],
   "enableSkillCommands": false,
   "hideThinkingBlock": false,
