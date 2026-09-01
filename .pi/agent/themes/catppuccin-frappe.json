@@ -76,11 +76,12 @@
     "syntaxOperator": "sky",
     "syntaxPunctuation": "text",
     "thinkingOff": "surface2",
-    "thinkingMinimal": "surface1",
-    "thinkingLow": "blue",
-    "thinkingMedium": "teal",
-    "thinkingHigh": "mauve",
-    "thinkingXhigh": "pink",
+    "thinkingMinimal": "surface2",
+    "thinkingLow": "surface2",
+    "thinkingMedium": "surface2",
+    "thinkingHigh": "surface2",
+    "thinkingXhigh": "surface2",
+    "thinkingMax": "surface2",
     "bashMode": "peach"
   },
   "export": {
