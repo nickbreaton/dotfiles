@@ -1,7 +1,4 @@
 {
-  "lastChangelogVersion": "0.84.2",
-  "defaultProvider": "openai-codex",
-  "defaultModel": "gpt-5.6-sol",
   "packages": [
     "npm:pi-mcp-adapter",
     {
@@ -30,7 +27,6 @@
   ],
   "enableSkillCommands": false,
   "hideThinkingBlock": false,
-  "defaultThinkingLevel": "high",
   "treeFilterMode": "no-tools",
   "theme": "catppuccin-frappe",
   "themes": [

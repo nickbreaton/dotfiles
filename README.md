@@ -19,3 +19,15 @@ can be symlinked to:
 ```
 
 This keeps configuration tracked in the dotfiles repo while tools continue to read and write the paths they normally expect.
+
+## Git filters
+
+Configure the Pi settings filter once after cloning:
+
+```sh
+git config --local filter.pi-settings.clean 'jq "del(.lastChangelogVersion, .defaultProvider, .defaultModel, .defaultThinkingLevel)"'
+git config --local filter.pi-settings.smudge cat
+git config --local filter.pi-settings.required true
+```
+
+This keeps Pi's machine-local changelog, provider, model, and thinking defaults in the working file but removes them from commits.
