@@ -45,15 +45,19 @@
 
 working-directory = ~/Desktop
 
+
+
 # Match Dillon's Catppuccin Macchiato appearance.
 theme = Catppuccin Macchiato
 background-opacity = 1.0
 
-title = Ghostty
 
 window-colorspace = display-p3
 window-padding-x = 8
 window-padding-y = 8
 
-cursor-style = bar
-adjust-cursor-thickness = 2
+shell-integration-features = no-cursor
+
+cursor-style = block
+
+keybind = super+enter=unbind
