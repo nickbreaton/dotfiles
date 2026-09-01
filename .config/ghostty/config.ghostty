@@ -47,8 +47,8 @@ working-directory = ~/Desktop
 
 
 
-# Match Dillon's Catppuccin Macchiato appearance.
-theme = Catppuccin Macchiato
+# Use Catppuccin Frappé.
+theme = Catppuccin Frappe
 background-opacity = 1.0
 
 
