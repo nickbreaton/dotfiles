@@ -45,7 +45,7 @@
 
 working-directory = ~/Desktop
 
-
+font-family = Geist Mono
 
 # Use Catppuccin Frappé.
 theme = Catppuccin Frappe

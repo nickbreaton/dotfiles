@@ -7,16 +7,20 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "theme": {
+    "light": "One Light",
+    "dark": "Catppuccin Frappé"
+  },
+  "icon_theme": {
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
   "accessible_mode": false,
   "ui_font_size": 14.5,
   "cursor_shape": "bar",
   "diff_view_style": "unified",
   "cli_default_open_behavior": "new_window",
-  "theme": {
-    "mode": "dark",
-    "light": "One Light",
-    "dark": "Catppuccin Frappé"
-  },
+
   // "project_panel": {
   //   "sort_mode": "directories_first",
   //   "hide_root": false,
@@ -100,9 +104,11 @@
     "diagnostics": true,
     "metrics": false,
   },
+  "buffer_font_family": "Geist Mono",
   "buffer_font_size": 12.0,
   "terminal": {
-    "font_size": 11.5,
+    "font_family": "Geist Mono",
+    "font_size": 12,
     "cursor_shape": "bar",
   },
   "tab_size": 2,

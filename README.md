@@ -22,12 +22,16 @@ This keeps configuration tracked in the dotfiles repo while tools continue to re
 
 ## Git filters
 
-Configure the Pi settings filter once after cloning:
+Configure the settings filters once after cloning:
 
 ```sh
 git config --local filter.pi-settings.clean 'jq "del(.lastChangelogVersion, .defaultProvider, .defaultModel, .defaultThinkingLevel)"'
 git config --local filter.pi-settings.smudge cat
 git config --local filter.pi-settings.required true
+
+git config --local filter.zed-settings.clean './.git-filters/zed-settings-clean'
+git config --local filter.zed-settings.smudge cat
+git config --local filter.zed-settings.required true
 ```
 
-This keeps Pi's machine-local changelog, provider, model, and thinking defaults in the working file but removes them from commits.
+These keep Pi's machine-local changelog, provider, model, and thinking defaults, along with Zed's `theme.mode` and `icon_theme.mode`, in the working files but remove them from commits.

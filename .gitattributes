@@ -1,1 +1,2 @@
 .pi/agent/settings.json filter=pi-settings
+.config/zed/settings.json filter=zed-settings
