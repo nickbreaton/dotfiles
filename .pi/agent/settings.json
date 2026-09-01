@@ -32,7 +32,7 @@
   "hideThinkingBlock": false,
   "defaultThinkingLevel": "high",
   "treeFilterMode": "no-tools",
-  "theme": "catppuccin-macchiato",
+  "theme": "catppuccin-frappe",
   "themes": [
     "~/Developer/dotfiles/.pi/agent/themes"
   ],
