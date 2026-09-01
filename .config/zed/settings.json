@@ -15,7 +15,7 @@
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Catppuccin Macchiato"
+    "dark": "Catppuccin Frappé"
   },
   // "project_panel": {
   //   "sort_mode": "directories_first",
@@ -102,7 +102,7 @@
   },
   "buffer_font_size": 12.0,
   "terminal": {
-    "font_size": 12.0,
+    "font_size": 11.5,
     "cursor_shape": "bar",
   },
   "tab_size": 2,
