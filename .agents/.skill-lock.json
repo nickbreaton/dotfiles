@@ -15,20 +15,20 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/mattpocock/skills.git",
       "skillPath": "skills/productivity/grill-me/SKILL.md",
-      "skillFolderHash": "8320e7b87f7b208f50ce165b1dd43d1e93c8e801",
+      "skillFolderHash": "3df14e2d3a89459bf300614be9247e3ce74798f8",
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-06-28T19:49:53.205Z",
-      "updatedAt": "2026-06-28T19:49:53.205Z"
+      "updatedAt": "2026-08-23T20:57:41.694Z"
     },
     "teach": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/mattpocock/skills.git",
       "skillPath": "skills/productivity/teach/SKILL.md",
-      "skillFolderHash": "3b6a4245e2aaeacb308ba6175ab3e7f2e43b0c47",
+      "skillFolderHash": "2ab11f2f51f3c29771edb5d4258d807a49462491",
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-06-28T19:49:53.208Z",
-      "updatedAt": "2026-06-28T19:49:53.208Z"
+      "updatedAt": "2026-08-23T20:57:41.696Z"
     }
   },
   "lastSelectedAgents": [
