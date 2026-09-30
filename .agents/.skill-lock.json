@@ -29,18 +29,35 @@
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-06-28T19:49:53.208Z",
       "updatedAt": "2026-08-23T20:57:41.696Z"
+    },
+    "effect-ts": {
+      "source": "Effect-TS/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Effect-TS/skills.git",
+      "skillPath": "skills/effect-ts/SKILL.md",
+      "skillFolderHash": "dbc2a06700d0e901d464edfcf0020ab7f6ec0bbd",
+      "installedAt": "2026-09-20T20:38:06.089Z",
+      "updatedAt": "2026-09-20T20:38:06.089Z"
+    },
+    "effect-v3-to-v4": {
+      "source": "Effect-TS/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Effect-TS/skills.git",
+      "skillPath": "skills/effect-v3-to-v4/SKILL.md",
+      "skillFolderHash": "6af2c1e49e24ec04f6f5d589b151199ae23b6a18",
+      "installedAt": "2026-09-20T20:38:06.093Z",
+      "updatedAt": "2026-09-20T20:38:06.093Z"
     }
   },
   "lastSelectedAgents": [
     "amp",
-    "antigravity",
-    "antigravity-cli",
     "cline",
     "codex",
     "cursor",
-    "deepagents",
+    "droid",
     "gemini-cli",
     "github-copilot",
+    "kilo",
     "kimi-code-cli",
     "opencode",
     "warp",

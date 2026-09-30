@@ -19,13 +19,13 @@
   ],
   "enabledModels": [
     "opencode/grok-4.6",
-    "opencode-go/glm-5.3",
-    "openai-codex/gpt-5.6-sol"
+    "opencode/glm-5.3-flash",
+    "openai-codex/gpt-6-sol"
   ],
   "enableSkillCommands": false,
   "hideThinkingBlock": false,
   "treeFilterMode": "no-tools",
-  "theme": "catppuccin-frappe",
+  "theme": "light/catppuccin-frappe",
   "themes": [
     "~/Developer/dotfiles/.pi/agent/themes"
   ],
