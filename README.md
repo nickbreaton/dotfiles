@@ -18,7 +18,7 @@ can be symlinked to:
 ~/.pi/agent/settings.json
 ```
 
-This keeps configuration tracked in the dotfiles repo while tools continue to read and write the paths they normally expect.
+This keeps configuration tracked in the dotfiles repo while tools continue to read and write the paths they normally expect. Repository-only helpers live in `repo/` and are not meant to be symlinked into `~`.
 
 ## Git filters
 
@@ -29,7 +29,7 @@ git config --local filter.pi-settings.clean 'jq "del(.lastChangelogVersion, .def
 git config --local filter.pi-settings.smudge cat
 git config --local filter.pi-settings.required true
 
-git config --local filter.zed-settings.clean './.git-filters/zed-settings-clean'
+git config --local filter.zed-settings.clean './repo/git-filters/zed-settings-clean'
 git config --local filter.zed-settings.smudge cat
 git config --local filter.zed-settings.required true
 ```
