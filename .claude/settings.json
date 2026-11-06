@@ -1,6 +1,10 @@
 {
-  "theme": "auto",
+  "env": {
+    "DISABLE_AUTOUPDATER": "1"
+  },
   "attribution": {
     "commit": ""
-  }
+  },
+  "theme": "auto",
+  "switchModelsOnFlag": false
 }

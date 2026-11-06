@@ -47,6 +47,45 @@
       "skillFolderHash": "6af2c1e49e24ec04f6f5d589b151199ae23b6a18",
       "installedAt": "2026-09-20T20:38:06.093Z",
       "updatedAt": "2026-09-20T20:38:06.093Z"
+    },
+    "slidev": {
+      "source": "slidevjs/slidev",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/slidevjs/slidev.git",
+      "skillPath": "skills/slidev/SKILL.md",
+      "skillFolderHash": "27df218b1e8ce7f639326a2e41048ae8c2c6418a",
+      "installedAt": "2026-10-01T01:17:47.919Z",
+      "updatedAt": "2026-10-01T01:17:47.919Z"
+    },
+    "audit-program": {
+      "source": "foldkit/foldkit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/foldkit/foldkit.git",
+      "skillPath": "skills/audit-program/SKILL.md",
+      "skillFolderHash": "2dca1101eed706736c2705d716070b40a543e921",
+      "pluginName": "foldkit-skills",
+      "installedAt": "2026-11-06T04:56:41.931Z",
+      "updatedAt": "2026-11-06T04:56:41.931Z"
+    },
+    "foldkit": {
+      "source": "foldkit/foldkit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/foldkit/foldkit.git",
+      "skillPath": "skills/foldkit/SKILL.md",
+      "skillFolderHash": "5099f00e6bf63afa021fbe705b001ade591d0ee0",
+      "pluginName": "foldkit-skills",
+      "installedAt": "2026-11-06T04:56:41.935Z",
+      "updatedAt": "2026-11-06T04:56:41.935Z"
+    },
+    "generate-program": {
+      "source": "foldkit/foldkit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/foldkit/foldkit.git",
+      "skillPath": "skills/generate-program/SKILL.md",
+      "skillFolderHash": "8c85d4fcfb7e6be0b4b84fb19a5205d5d1b98082",
+      "pluginName": "foldkit-skills",
+      "installedAt": "2026-11-06T04:56:41.936Z",
+      "updatedAt": "2026-11-06T04:56:41.936Z"
     }
   },
   "lastSelectedAgents": [

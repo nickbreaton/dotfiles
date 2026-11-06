@@ -1,6 +1,5 @@
 {
   "packages": [
-    "npm:pi-mcp-adapter",
     {
       "source": "npm:pi-terminal-theme",
       "themes": [
@@ -20,7 +19,7 @@
   "enabledModels": [
     "opencode/grok-4.6",
     "opencode/glm-5.3-flash",
-    "openai-codex/gpt-6-sol"
+    "openai-codex/gpt-6.1-sol"
   ],
   "enableSkillCommands": false,
   "hideThinkingBlock": false,

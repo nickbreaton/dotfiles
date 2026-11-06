@@ -7,9 +7,10 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "disable_ai": false,
   "theme": {
     "light": "One Light",
-    "dark": "Catppuccin Frappé"
+    "dark": "One Dark"
   },
   "icon_theme": {
     "light": "Zed (Default)",
@@ -52,6 +53,11 @@
     "dock": "right",
   },
   "agent_servers": {
+    "T3 Code": {
+      "type": "custom",
+      "command": "/Users/nickbreaton/.bun/bin/bun",
+      "args": ["/Users/nickbreaton/Developer/t3code-relay/index.ts"],
+    },
     "pi-acp": {
       "type": "registry",
     },
