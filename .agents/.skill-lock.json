@@ -86,6 +86,15 @@
       "pluginName": "foldkit-skills",
       "installedAt": "2026-11-06T04:56:41.936Z",
       "updatedAt": "2026-11-06T04:56:41.936Z"
+    },
+    "install-anti-slop": {
+      "source": "dmmulroy/anti-slop",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dmmulroy/anti-slop.git",
+      "skillPath": "skills/install-anti-slop/SKILL.md",
+      "skillFolderHash": "97962dc9fad565ca7695bf57805d9d0138ce1def",
+      "installedAt": "2026-11-06T13:18:41.804Z",
+      "updatedAt": "2026-11-06T13:18:41.804Z"
     }
   },
   "lastSelectedAgents": [
