@@ -6,5 +6,6 @@
     "commit": ""
   },
   "theme": "auto",
-  "switchModelsOnFlag": false
+  "switchModelsOnFlag": false,
+  "autoMemoryEnabled": false
 }
